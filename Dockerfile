@@ -9,8 +9,7 @@ COPY requirements.txt .
 
 # Install the project dependencies
 RUN pip install -r requirements.txt
-
-# Copy the application code into the container
+# Copy the application code into the containerr
 COPY . .
 
 # Expose the port the Flask application will be listening on
